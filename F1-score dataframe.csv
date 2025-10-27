@@ -1,0 +1,18 @@
+,Classifier,Data,Hyperparameters,Weighted F1-score,Accuracy score
+0,DummyClassifier(strategy='uniform'),Numerical data,N/A,0.347,0.322
+1,LogisticRegression(C=0.01),Numerical data,{'C': 0.01},0.453,0.453
+3,KNeighborsClassifier(n_neighbors=100),Numerical data,{'n_neighbors': 100},0.495,0.495
+4,SVC(C=50),Numerical data,{'C': 50},0.512,0.512
+7,RandomForestClassifier(n_estimators=150),Text data,{'n_estimators': 150},0.565,0.565
+16,RandomForestClassifier(n_estimators=150),Combined Text data,{'n_estimators': 150},0.594,0.594
+2,LogisticRegression(C=0.01),Scaled numerical data,{'C': 0.01},0.647,0.647
+6,GradientBoostingClassifier(n_estimators=125),Numerical data,{'n_estimators': 125},0.701,0.701
+5,RandomForestClassifier(n_estimators=175),Numerical data,{'n_estimators': 175},0.708,0.708
+15,Stacking Classifier (Gradient Boosting - Random Forest - Decision Tree - Logistic Regression - Naive Bayes - AdaBoost - K-Nearest Neigbors - Logistic Regression),Balanced Numerical data,LR: {'C': 0.01} - KNN: {'n_neighbors': 100} - GB: {'n_estimators': 125} - RF: {'n_estimators': 175},0.712,0.712
+8,Voting Classifier (Gradient Boosting - Random Forest),Balanced Numerical data,GB: {'n_estimators': 125} - RF: {'n_estimators': 175},0.715,0.715
+9,Voting Classifier (Gradient Boosting - Random Forest - Logistic Regression - Naive Bayes),Balanced Numerical data,LR: {'C': 0.01} - GB: {'n_estimators': 125} - RF: {'n_estimators': 175},0.716,0.716
+11,Stacking Classifier (Gradient Boosting - Random Forest - Logistic Regression),Balanced Numerical data,GB: {'n_estimators': 125} - RF: {'n_estimators': 175},0.716,0.716
+14,Stacking Classifier (Gradient Boosting - Random Forest - Naive Bayes - Logistic Regression),Balanced Numerical data,GB: {'n_estimators': 125} - RF: {'n_estimators': 175},0.717,0.717
+12,Stacking Classifier (Gradient Boosting - Random Forest - Decision Tree - Logistic Regression - Naive Bayes - Logistic Regression),Balanced Numerical data,LR: {'C': 0.01} - GB: {'n_estimators': 125} - RF: {'n_estimators': 175},0.721,0.722
+13,Stacking Classifier (Gradient Boosting - Random Forest - Decision Tree - Logistic Regression - Naive Bayes - AdaBoost - Logistic Regression),Balanced Numerical data,LR: {'C': 0.01} - GB: {'n_estimators': 125} - RF: {'n_estimators': 175},0.726,0.726
+10,Voting Classifier (Gradient Boosting - Random Forest - Naive Bayes),Balanced Numerical data,GB: {'n_estimators': 125} - RF: {'n_estimators': 175},0.73,0.73
