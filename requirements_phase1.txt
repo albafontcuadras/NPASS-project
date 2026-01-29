@@ -1,0 +1,6 @@
+Django==5.1.2
+django-plotly-dash>=2.5.0
+dash==2.17.1
+requests==2.32.3
+gunicorn==22.0.0
+dpd-static-support>=0.0.5
