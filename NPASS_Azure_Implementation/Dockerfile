@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
 
 WORKDIR /app
 
-COPY requirements_phase1.txt ./requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+COPY requirements_django.txt ./requirements_azure.txt
+RUN pip install --no-cache-dir -r requirements_azure.txt
 
 COPY npass_site ./npass_site
 
